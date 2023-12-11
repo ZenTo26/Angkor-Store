@@ -1,0 +1,257 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  width: 80%;
+  height: 1050px;
+  background-color: #c9c8c8;
+  margin: 0 auto;
+  border: 1px solid #797979a2;
+}
+.banner {
+  width: 90%;
+  height: 300px;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  margin-left: 5%;
+  margin-top: 10px;
+  border: 2px solid #00000087;
+}
+.banner img {
+  width: 100%;
+  height: 100%;
+}
+
+.box-card {
+  width: 90%;
+  height: 300px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 5%;
+}
+.box-card .card {
+  width: 23%;
+  height: 100%;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.card:hover {
+  border: 2px solid #212121;
+  transform: 1.8s;
+  cursor: pointer;
+}
+.card .img {
+  width: 100%;
+  height: 60%;
+  /* background-color: yellow; */
+  overflow: hidden;
+}
+.card .img:hover img {
+  transform: scale(1.1);
+}
+.card a {
+  text-decoration: none;
+  color: #212121;
+}
+.card .img img {
+  width: 100%;
+  height: 100%;
+}
+.card .ph_name {
+  width: 100%;
+  height: 40%;
+  padding-top: 20px;
+  /* background-color: green; */
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.res-box-card {
+  display: none;
+}
+
+/* ----------------------------- */
+/* ----------------------------- */
+
+/* responsive */
+
+/*mobile phone*/
+@media (max-width: 557px) {
+  .header {
+    height: 80px;
+  }
+  .navbar .name {
+    font-size: 10px;
+  }
+  .navbar .menu ul {
+    display: none;
+  }
+  .navbar .about {
+    display: none;
+  }
+  .navbar .icon-user {
+    font-size: 15px;
+    display: flex;
+    padding-top: 30px;
+    margin-left: 30px;
+  }
+  .main {
+    height: 1850px;
+  }
+  .banner {
+    height: 100px;
+  }
+  .box-card {
+    display: none;
+  }
+  .res-box-card {
+    display: block;
+    width: 90%;
+    height: 200px;
+    /* background-color: red; */
+    margin-left: 10%;
+    margin-top: 10px;
+    /* border-radius: 10px; */
+  }
+  .res-box-card .res-card {
+    width: 90%;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 7px;
+    float: left;
+    overflow: hidden;
+    margin-top: 10px;
+  }
+
+  .res-card:hover {
+    border: 2px solid #212121;
+    transform: 1.8s;
+    cursor: pointer;
+  }
+  .res-card .img {
+    width: 100%;
+    height: 60%;
+    /* background-color: yellow; */
+    overflow: hidden;
+  }
+  .res-card .img:hover img {
+    transform: scale(1.1);
+  }
+  .res-card a {
+    text-decoration: none;
+    color: #212121;
+  }
+  .res-card .img img {
+    width: 100%;
+    height: 100%;
+  }
+  .res-card .ph_name {
+    width: 100%;
+    height: 40%;
+    padding-top: 20px;
+    /* background-color: green; */
+    text-align: center;
+    font-size: 10px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+  }
+}
+
+/*ipad*/
+@media (min-width: 558px) and (max-width: 991px) {
+  .header {
+    height: 80px;
+  }
+  .navbar .name {
+    font-size: 10px;
+  }
+  .navbar .menu ul {
+    display: none;
+  }
+  .navbar .about {
+    display: none;
+  }
+  .navbar .icon-user {
+    font-size: 15px;
+    display: flex;
+    padding-top: 30px;
+    margin-left: 170px;
+  }
+
+  .main {
+    height: 1050px;
+  }
+  .banner {
+    height: 100px;
+  }
+  .box-card {
+    display: none;
+  }
+  .res-box-card {
+    display: block;
+    width: 90%;
+    height: 200px;
+    /* background-color: red; */
+    margin-left: 5%;
+    margin-top: 10px;
+    /* border-radius: 10px; */
+  }
+  .res-box-card .res-card {
+    width: 45%;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 7px;
+    float: left;
+    overflow: hidden;
+    margin-left: 3%;
+    margin-right: 2%;
+  }
+
+  .res-card:hover {
+    border: 2px solid #212121;
+    transform: 1.8s;
+    cursor: pointer;
+  }
+  .res-card .img {
+    width: 100%;
+    height: 60%;
+    /* background-color: yellow; */
+    overflow: hidden;
+  }
+  .res-card .img:hover img {
+    transform: scale(1.1);
+  }
+  .res-card a {
+    text-decoration: none;
+    color: #212121;
+  }
+  .res-card .img img {
+    width: 100%;
+    height: 100%;
+  }
+  .res-card .ph_name {
+    width: 100%;
+    height: 40%;
+    padding-top: 20px;
+    /* background-color: green; */
+    text-align: center;
+    font-size: 10px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+  }
+}
+
+/*ipad pro*/
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+/*laptop*/
+@media (min-width: 1200px) {
+}

@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.about-page {
+  width: 100%;
+  height: 1000px;
+  padding-top: 40px;
+}
+.about-page .box {
+  width: 80%;
+  /* height: 100vh; */
+  margin: 0 auto;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.box h3 {
+  color: chocolate;
+}
+.about-page .a-box {
+  width: 100%;
+  height: 100vh;
+  /* background-color: gray; */
+  margin-top: 50px;
+  font-family: "Noto Sans", sans-serif;
+}
+.a-box .a-left {
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+.a-b0x .a-right {
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+

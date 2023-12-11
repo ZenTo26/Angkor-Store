@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.footer {
+  width: 100%;
+  height: 400px;
+  background-color: #212121;
+  border-top: 3px solid #c9c8c8;
+  margin-top: 10px;
+}
+.footer .social {
+  width: 100%;
+  height: 100px;
+  /* background-color: orange; */
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #c9c8c8;
+  font-size: 40px;
+}
+.footer .social i {
+  padding-left: 18px;
+}
+.footer .social i:hover {
+  color: #fff;
+  cursor: pointer;
+}
+.footer .company {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #c9c8c8;
+}
